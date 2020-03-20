@@ -19,6 +19,6 @@ def not_safe?(speed)
 		test_2 == 0
 	end
 	test_3 == test_1 + test_2
-	if test_3 == 2 ? return false : return true
+	if test_3 == 2 ? false : true
 	end
 end
